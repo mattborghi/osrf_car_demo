@@ -35,6 +35,7 @@ This demo has been tested on Ubuntu Xenial (20.04) with ROS2 Foxy and inside doc
    - [nvidia-docker2](<https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)>)
    - The current user is a member of the docker group or other group with docker execution rights.
    - [rocker](https://github.com/osrf/rocker)
+     - `sudo apt-get install python3-rocker`
 
 # Building
 
@@ -77,3 +78,10 @@ where `--nvidia` is an optional argument that allows docker to run using Nvidia 
 In both cases an [RVIZ](http://wiki.ros.org/rviz) window will open showing the car and sensor output.
 A gazebo window will appear showing the simulation.
 Either use the controller to drive the prius around the world, or click on the gazebo window and use the `WASD` keys to drive the car or use the teleop window that opens in xterm.
+
+# Alternatives and references
+
+- [Autoware](https://github.com/autowarefoundation/autoware)
+- [Carla](https://carla.org/)
+- [The Constructsim](https://www.theconstructsim.com/start-self-driving-cars-using-ros/)
+- [SVL](https://www.svlsimulator.com/)
